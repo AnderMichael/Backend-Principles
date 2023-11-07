@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Curso-Backend.iml" filepath="$PROJECT_DIR$/Curso-Backend.iml" />
+      <module fileurl="file://$PROJECT_DIR$/principles_and_acronyms/solid/open_closed_principle/open_closed_principle.iml" filepath="$PROJECT_DIR$/principles_and_acronyms/solid/open_closed_principle/open_closed_principle.iml" />
+      <module fileurl="file://$PROJECT_DIR$/principles_and_acronyms/solid/single_responsability_principle/single_responsability_principle.iml" filepath="$PROJECT_DIR$/principles_and_acronyms/solid/single_responsability_principle/single_responsability_principle.iml" />
+    </modules>
+  </component>
+</project>
