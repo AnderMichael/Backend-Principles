@@ -20,7 +20,7 @@ export class UserRepositoryImpl implements UserRepository {
             passwordHash: user.passwordHash,
             createdAt: user.createdAt || new Date(),
             lastLogin: user.lastLogin || null,
-            roleId: user.roleId
+            role: user.role
         });
 
         const userResponse = await AppDataSource.getRepository(UserEntity).save(userEntity);
@@ -31,7 +31,7 @@ export class UserRepositoryImpl implements UserRepository {
             passwordHash: userResponse.passwordHash,
             createdAt: userResponse.createdAt,
             lastLogin: userResponse.lastLogin,
-            roleId: userResponse.roleId
+            role: userResponse.role
         })
     }
 }

@@ -1,7 +1,7 @@
 import { Request, Response, Router } from 'express';
 import { UserService } from '../../app/services/userService';
-import { UserDto } from '../../app/dtos/user.dto';
-import { CreateUserDTO } from '../../app/dtos/create.user.dto';
+import { UserDto } from '../../app/dtos/user/user.dto';
+import { CreateUserDTO } from '../../app/dtos/user/create.user.dto';
 import logger from '../../infrastructure/logger/logger';
 
 export class UserController {
